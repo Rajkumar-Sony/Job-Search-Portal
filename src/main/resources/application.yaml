@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: job-search-portal
+  elasticsearch:
+    uris: http://localhost:9200
+  datasource:
+    url: jdbc:mysql://localhost:3307/job_portal?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

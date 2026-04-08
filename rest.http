@@ -1,0 +1,36 @@
+@baseUrl = http://localhost:8080
+
+### Create job
+POST {{baseUrl}}/api/jobs
+Content-Type: application/json
+
+{
+  "title": "Java Developer",
+  "company": "ABC Corp",
+  "location": "Tokyo",
+  "skills": ["Java", "Spring Boot"],
+  "experience": 3,
+  "salary": 6000000,
+  "description": "Looking for backend developer",
+  "postedDate": "2026-04-01"
+}
+
+### Search jobs
+GET {{baseUrl}}/api/jobs/search?q=Java&location=Tokyo&skill=Spring&minExperience=2
+
+### Get all jobs
+GET {{baseUrl}}/api/jobs
+
+### Create application (MySQL)
+POST {{baseUrl}}/api/applications
+Content-Type: application/json
+
+{
+  "jobId": "replace-with-job-id",
+  "applicantName": "Jane Doe",
+  "email": "jane@example.com",
+  "resumeLink": "https://example.com/resume/jane"
+}
+
+### List applications
+GET {{baseUrl}}/api/applications
