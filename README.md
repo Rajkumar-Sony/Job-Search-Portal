@@ -255,6 +255,8 @@ This project is proprietary and closed-source.
 No one is allowed to copy, use, modify, or redistribute this code without written permission.
 See [LICENSE](LICENSE).
 
-## Greetings
+---
 
-Greetings, and happy building.
+All rights reserved. Happy coding! 
+
+Build with ❤️ by Raj Kumar Sony. for more information, visit: `https://rajkumarsony.vercel.app`.
