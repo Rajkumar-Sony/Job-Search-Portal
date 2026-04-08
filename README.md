@@ -259,4 +259,4 @@ See [LICENSE](LICENSE).
 
 All rights reserved. Happy coding! 
 
-Build with ❤️ by Raj Kumar Sony. for more information, visit: `https://rajkumarsony.vercel.app`.
+Build with ❤️ by Raj Kumar Sony. For more information, visit [https://rajkumarsony.vercel.app](https://rajkumarsony.vercel.app).
